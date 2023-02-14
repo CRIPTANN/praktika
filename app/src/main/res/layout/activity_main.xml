@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:onClick="onClickGoПон"
+        android:text="@string/ПОН"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079"
+        tools:ignore="MissingConstraints,TextSizeCheck,UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:onClick="onClickGoВів"
+        android:text="@string/ВІВ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.037"
+        tools:ignore="MissingConstraints,TextSizeCheck,UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:onClick="onClickGoСер"
+        android:text="@string/СЕР"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282"
+        tools:ignore="MissingConstraints,TextSizeCheck,UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:onClick="onClickGoЧет"
+        android:text="@string/ЧТВ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:onClick="onClickGoПят"
+        android:text="@string/ПЯТ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484"
+        tools:ignore="MissingConstraints,UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="35dp"
+        android:layout_height="18dp"
+        android:background="#2FFF00"
+        android:text="@string/T1"
+        android:textColor="#33691E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        tools:ignore="MissingConstraints,TextSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
